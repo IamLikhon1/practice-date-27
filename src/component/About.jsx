@@ -17,8 +17,8 @@ const About = () => {
           navigation
           pagination={{ clickable: true }}
         //   scrollbar={{ draggable: true }}
-          onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={() => console.log('slide change')}
+          onSwiper={(swiper) => (swiper)}
+          onSlideChange={() => console.log()}
         >
           <SwiperSlide><div className="card h-96 w-96 bg-base-100 shadow-xl">
   <div className="card-body">

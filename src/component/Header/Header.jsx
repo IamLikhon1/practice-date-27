@@ -25,7 +25,6 @@ const Header = () => {
             <Link className='mx-3 text-xl font-medium' to='/about'>About Us</Link>
             { user && <Link className='mx-3 text-xl font-medium' to='/private'>Private</Link>}
             <Link className='mx-3 text-xl font-medium' to='/login'>Login</Link>
-            <Link className='mx-3 text-xl font-medium' to='/register'>Register</Link>
             {
               user ?<> <span>{user.email}</span>
               <span><button onClick={logoutHandle} className="btn btn-outline btn-secondary">Sign Out</button></span></>

@@ -12,15 +12,18 @@
   "dependencies": {
     "daisyui": "^2.51.6",
     "firebase": "^9.20.0",
+    "google-map-react": "^2.2.0",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
     "react": "^18.2.0",
+    "react-datepicker": "^4.11.0",
     "react-dom": "^18.2.0",
     "react-fast-marquee": "^1.5.2",
     "react-hot-toast": "^2.4.0",
     "react-icons": "^4.8.0",
     "react-router-dom": "^6.10.0",
-    "sort-by": "^1.2.0"
+    "sort-by": "^1.2.0",
+    "swiper": "^9.2.4"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
